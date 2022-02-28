@@ -5,13 +5,13 @@
 
 - name: Copy icon for desktop shortcut
   copy:
-    src: files/asreview_icon_64px.pgn
+    src: asreview_icon_64px.png
     dest: /usr/share/pixmaps/asreview.png
     mode: 644
 
 - name: Create desktop shortcut
   copy:
-    src: files/asreview.desktop
+    src: asreview.desktop
     dest: "{{ item }}"
     mode: 644
   with_items:
