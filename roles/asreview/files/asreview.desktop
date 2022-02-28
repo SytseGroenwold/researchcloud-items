@@ -1,6 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Open ASReview
-Type=Link
-URL=localhost:3000
+Name=ASReview
+Type=Application
+Terminal=False
+Exec=asreview lab
 Icon=/usr/share/pixmaps/asreview.png
