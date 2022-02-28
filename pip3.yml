@@ -1,0 +1,6 @@
+---
+- name: install pip3
+  hosts: localhost
+  roles:
+    - pip3
+...
