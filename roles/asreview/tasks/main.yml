@@ -3,21 +3,15 @@
   pip:
     name: asreview
 
-- name: Copy icon for desktop shortcut
+- name: Copy icon for Application menu shortcut
   copy:
     src: asreview_icon_64px.png
     dest: /usr/share/pixmaps/asreview.png
     mode: 644
 
-- name: Create desktop shortcut
+- name: Create Application menu shortcut
   copy:
     src: asreview.desktop
-    dest: "{{ item }}"
+    dest: /usr/share/applications
     mode: 644
-  with_items:
-    # Application menu for all users
-    - /usr/share/applications
-    #The desktops of all new users
-    - /etc/skel/Desktop
-    #- /etc/xdg/autostart        # The desktop(s) of all existing users
 ...
