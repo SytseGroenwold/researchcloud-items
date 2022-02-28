@@ -3,5 +3,6 @@
   hosts: localhost
   gather_facts: true
   roles:
+    - pip3
     - asreview
 ...
