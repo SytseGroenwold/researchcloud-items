@@ -16,6 +16,6 @@
     mode: 644
   with_items:
     - /usr/share/applications   # Application menu for all users
-    - /etc/xdg/autostart        # The desktop(s) of all existing users
-    # The desktops of all new users
+    #- /etc/xdg/autostart        # The desktop(s) of all existing users
+    - /etc/skel/Desktop The desktops of all new users
 ...

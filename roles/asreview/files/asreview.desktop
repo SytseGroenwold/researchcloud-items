@@ -4,5 +4,5 @@ Name=ASReview
 Type=Application
 Terminal=False
 Exec=asreview lab
-Categories=Application
+Categories=Development
 Icon=/usr/share/pixmaps/asreview.png
