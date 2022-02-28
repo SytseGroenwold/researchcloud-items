@@ -1,0 +1,7 @@
+---
+- name: Install ASReview
+  hosts: localhost
+  gather_facts: true
+  roles:
+    - install_asr
+...

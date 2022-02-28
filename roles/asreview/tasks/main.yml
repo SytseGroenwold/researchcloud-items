@@ -1,0 +1,5 @@
+---
+- name: Install ASReview through pip
+  pip:
+    name: asreview
+...
