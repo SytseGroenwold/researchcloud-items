@@ -12,7 +12,7 @@
 - name: Create desktop shortcut
   copy:
     src: asreview.desktop
-    dest: {{ item }}
+    dest: "{{ item }}"
     mode: 644
   with_items:
     - /usr/share/applications   # Application menu for all users
