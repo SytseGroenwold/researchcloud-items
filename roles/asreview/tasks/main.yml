@@ -15,7 +15,9 @@
     dest: "{{ item }}"
     mode: 644
   with_items:
-    - /usr/share/applications   # Application menu for all users
+    # Application menu for all users
+    - /usr/share/applications
+    #The desktops of all new users
+    - /etc/skel/Desktop
     #- /etc/xdg/autostart        # The desktop(s) of all existing users
-    - /etc/skel/Desktop The desktops of all new users
 ...
