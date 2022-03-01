@@ -10,4 +10,4 @@ development_credentials.yml
 /.vagrant
 
 # MacOS 
-*/.DS_Store
+.DS_Store
