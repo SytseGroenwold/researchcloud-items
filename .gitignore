@@ -8,3 +8,6 @@ development_credentials.yml
 
 # Vagrant
 /.vagrant
+
+# MacOS 
+*/.DS_Store
