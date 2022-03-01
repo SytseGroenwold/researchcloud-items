@@ -1,0 +1,7 @@
+---
+- name: Clone repos from argument
+  hosts: localhost
+  gather_facts: true
+  roles:
+    - gitclone
+...
