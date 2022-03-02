@@ -15,6 +15,7 @@
     dest: "{{ item }}"
     mode: 644
   with_items:
-    - /usr/share/applications
-    - /etc/skel/Desktop
+    - /usr/share/applications #Application menu item
+    - /etc/xdg/autostart/     #Launch at start
+    #- /etc/skel/Desktop       #Desktop item
 ...
