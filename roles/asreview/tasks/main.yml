@@ -12,6 +12,9 @@
 - name: Create Application menu shortcut
   copy:
     src: asreview.desktop
-    dest: /usr/share/applications
+    dest: {{ item }}
     mode: 644
+  with_items:
+    - /usr/share/applications
+    - /etc/skel/Desktop
 ...
