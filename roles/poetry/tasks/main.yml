@@ -1,0 +1,6 @@
+---
+- name: Install poetry through pip
+  pip:
+    name: poetry
+    version: "{{ poetry_version }}"
+...

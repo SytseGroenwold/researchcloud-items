@@ -1,0 +1,6 @@
+---
+- name: install Poetry python package manager
+  hosts: localhost
+  roles:
+    - poetry
+...
