@@ -1,9 +1,13 @@
 ---
+- name: Set ASReview files path
+  lineinfile:
+    path: /etc/environment
+    line: ASREVIEW_PATH="/var/lib/asreview"
+    create: yes   
+
 - name: Install ASReview through pip
   pip:
     name: asreview
-  environment:
-    ASREVIEW_PATH: /var/lib/asreview
 
 - name: Copy icon for Application menu shortcut
   copy:
