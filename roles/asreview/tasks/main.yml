@@ -2,6 +2,8 @@
 - name: Install ASReview through pip
   pip:
     name: asreview
+  environment:
+    ASREVIEW_PATH: /var/lib/asreview
 
 - name: Copy icon for Application menu shortcut
   copy:
