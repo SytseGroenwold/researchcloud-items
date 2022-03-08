@@ -8,6 +8,7 @@
 - name: Change file path permissions
   file:
     path: /var/lib/asreview
+    state: directory
     mode: '666'
 
 - name: Install ASReview through pip
